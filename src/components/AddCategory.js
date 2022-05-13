@@ -12,7 +12,7 @@ export const AddCategory = ({setCategories}) => {
 
 
         if( inputValue.trim().length > 2){
-   setCategories(categ => [...categ, inputValue]);
+   setCategories(categ => [ inputValue,...categ]);
    setInpuntValue('');
 
         }

@@ -17,7 +17,7 @@ export const GifExpertApp = () => {
 
 
     <div>
-        <h2>Gif Expert App</h2>
+        <h2 className="animate__animated animate__zoomInDown">Gif Expert App</h2>
         <AddCategory  setCategories={ setCategories }/>
 
         <hr />
